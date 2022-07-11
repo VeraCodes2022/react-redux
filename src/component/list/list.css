@@ -1,0 +1,51 @@
+body{
+    background-color: #94c0f766;
+ 
+}
+
+.todomain{
+    margin: 5px 0;
+    /* border: 1px solid red; */
+    width: 50%; 
+    transform: translate(50%); 
+} 
+
+.container{
+  
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.input{
+    width:15px; 
+    height:15px;
+} 
+
+span{ 
+    display: inline-block;
+    padding:0 5px;
+}
+
+.chckbox, .deleteBtn, .editBtn{
+ margin: 12px 0;
+ align-self: center;
+
+}
+.chckbox{
+    flex-grow:20%;
+}
+.deleteBtn{
+    margin-right: 10px;
+}
+.btns{
+    flex-grow:80%;
+}
+
+
+button{
+    width: 60px;
+    height: 26px;
+    color:#3d1b5e;
+    font-size: 14px;
+}

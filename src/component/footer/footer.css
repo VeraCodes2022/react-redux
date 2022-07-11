@@ -1,0 +1,33 @@
+.footerwrapper{
+    width: 50%;
+    transform: translate(50%);
+    font-size: 14px;
+ 
+
+}
+.footerlist{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding:0 10px;
+}
+
+.footspan{
+    padding:0 5px;
+}
+.checkbox{
+    flex-grow: 20%;
+}
+.chkbox{
+    width:15px; 
+    height:15px;
+}
+
+.dltbutton{
+    align-self: center;
+    width: 120px;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}

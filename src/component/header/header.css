@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0
+}
+
+.headerpart{
+    width: 50%;
+    transform: translate(50%); 
+    padding:20px 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+
+.headerinput{
+    width:60%;
+    height: 30px;
+}
+
+
+
